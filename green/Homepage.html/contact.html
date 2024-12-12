@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GreenStack Farming</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Get in Touch with GreenStack Farming</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form id="contactForm" action="success.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <div id="address">
+            <h3>Our Location:</h3>
+            <p>123 GreenStack Lane, Cityville</p>
+            <p>Email: contact@greenstack.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+</section>
+
+<!-- Hidden checkbox for triggering the pop-up -->
+<input type="checkbox" id="modal-toggle" class="modal-toggle" hidden>
+
+<!-- Pop-up Confirmation -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h3>Message Sent Successfully!</h3>
+        <p>We will contact you soon.</p>
+        <label for="modal-toggle" class="close-btn">Close</label>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 GreenStack Farming. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

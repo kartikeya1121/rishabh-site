@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #f1f1f1; /* Light text for dark mode */
+}
+
+/* Header styles */
+header {
+    background: #1f1f1f; /* Darker background */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #333; /* Dark background */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #4caf50; /* Highlight color on hover */
+}
+
+/* About Us section */
+#about-us {
+    padding: 2rem;
+    background: #181818; /* Slightly lighter dark background */
+}
+
+#about-us h2, #about-us h3 {
+    color: #4caf50; /* Green headers */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Founder boxes styling */
+.founders {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap; /* For responsiveness */
+    margin-top: 2rem;
+}
+
+.founder-box {
+    background: #242424; /* Dark background for boxes */
+    border: 1px solid #333; /* Dark border */
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+.founder-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.founder-box h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #f1f1f1; /* Light text for the name */
+}
+
+.founder-box p {
+    margin: 0.5rem 0;
+    color: #ccc; /* Lighter text for details */
+}
+
+/* Footer styles */
+footer {
+    background: #333; /* Dark footer background */
+    color: #f1f1f1; /* Light text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Link styling */
+a {
+    color: #4caf50; /* Green links */
+}
+
+a:hover {
+    color: #fff; /* White on hover */
+}

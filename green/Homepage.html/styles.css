@@ -1,0 +1,192 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Elegant, modern font */
+    background-color: #181818; /* Dark background for a modern look */
+    color: #f1f1f1; /* Light text for contrast */
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* Header styles */
+header {
+    background-color: #1f1f1f; /* Dark header background */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 3px solid #4caf50; /* Green accent under the header */
+}
+
+header h1 {
+    font-size: 3rem; /* Larger, more impactful header */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Dark background for the nav bar */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for a more elevated look */
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+    border-radius: 5px; /* Rounded buttons */
+}
+
+nav ul li a:hover {
+    background-color: #4caf50; /* Green hover effect */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Intro Section */
+#intro {
+    padding: 60px 0;
+    background-color: #212121; /* Slightly lighter dark background */
+    text-align: center;
+    border-radius: 10px;
+}
+
+#intro h2 {
+    font-size: 2.5rem;
+    color: #4caf50; /* Green heading for intro */
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+/* Key Services Section */
+#key-services .service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.service-card {
+    background-color: #242424; /* Darker background for service card */
+    padding: 30px;
+    width: 45%;
+    min-height: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    border-radius: 15px; /* Round corners for softer card edges */
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.service-card h3 {
+    font-size: 1.8rem;
+    color: #4caf50; /* Green color for headings */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Image styling inside service card */
+.service-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px; /* Rounded corners for images */
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark footer background */
+    color: #f1f1f1;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 3px solid #4caf50; /* Green accent on top of the footer */
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Forms styling (for contact form) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    background-color: #333;
+    border-color: #4caf50; /* Focus effect with green border */
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.05);
+}
